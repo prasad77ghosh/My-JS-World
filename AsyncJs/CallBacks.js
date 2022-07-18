@@ -29,6 +29,9 @@ let production = () => {
             );
             setTimeout(() => {
               console.log(`${stocks.toppings[0]} added`);
+              setTimeout(() => {
+                console.log("IceCream was ready");
+              }, 1000);
             }, 1000);
           }, 1000);
         }, 1000);
